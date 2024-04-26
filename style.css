@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+*{
+     font-family: "Sedan", serif;
+}
+
+
+
+.laptopBgImage{
+    height: 100vh;
+    background: url(laptop.jpg);
+    background-size: cover;
+    position: relative;
+}
+.laptopText{
+    text-align: right;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+.laptopTitle{
+    font-size: 4rem;
+}
+.laptopDescription{
+    font-size:2rem;
+}
+/* .cardtext{
+    height:fit-content;
+} */
+
+.card{
+    cursor:pointer;
+}
+.card:hover{
+    background-color: #d87093;
+    border:2px  solid rgb(13, 186, 186);
+}
+.bIcon{
+    width:100%;
+    text-align:center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    background-color: hsl(340, 89%, 50%);
+    border:2px  solid rgb(117, 241, 241);
+}
